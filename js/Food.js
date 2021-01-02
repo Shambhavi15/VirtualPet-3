@@ -13,6 +13,7 @@ class Food {
    this.lastFed=lastFed;
  }
 
+  
  deductFood(){
    if(this.foodStock>0){
     this.foodStock=this.foodStock-1;
